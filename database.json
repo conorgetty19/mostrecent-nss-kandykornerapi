@@ -1,0 +1,357 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Rosario Murazik",
+      "email": "rosariomurazik@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Nicole Schneider",
+      "email": "nicoleschneider@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Roger Legros",
+      "email": "rogerlegros@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Chloe Skiles",
+      "email": "chloeskiles@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "fullName": "Ellis Hilpert",
+      "email": "ellishilpert@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "fullName": "Rosa Lockman",
+      "email": "rosalockman@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 7,
+      "fullName": "Geovanny Denesik",
+      "email": "geovannydenesik@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 8,
+      "fullName": "Clyde Conroy",
+      "email": "clydeconroy@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 9,
+      "fullName": "Eugene Beahan",
+      "email": "eugenebeahan@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 10,
+      "fullName": "Travis D'Amore",
+      "email": "travisdamore@gmail.com",
+      "isStaff": true
+    },
+    {
+      "fullName": "Conor Getty",
+      "email": "conorgetty@gmail.com",
+      "isStaff": true,
+      "id": 11
+    },
+    {
+      "email": "fake@fake.fake",
+      "fullName": "fake name",
+      "isStaff": false,
+      "id": 12
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "usersId": 1,
+      "loyaltyNumber": "12345"
+    },
+    {
+      "id": 2,
+      "usersId": 2,
+      "loyaltyNumber": 12346
+    },
+    {
+      "id": 3,
+      "usersId": 3,
+      "loyaltyNumber": 12347
+    },
+    {
+      "id": 4,
+      "usersId": 4,
+      "loyaltyNumber": 12348
+    },
+    {
+      "id": 5,
+      "usersId": 5,
+      "loyaltyNumber": 12349
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "2018-07-22",
+      "payRate": 12.5,
+      "locationsId": 1,
+      "usersId": 6
+    },
+    {
+      "id": 2,
+      "startDate": "2019-06-12",
+      "payRate": 11.5,
+      "locationsId": 1,
+      "usersId": 7
+    },
+    {
+      "id": 3,
+      "startDate": "2013-10-21",
+      "payRate": 13.5,
+      "locationsId": 2,
+      "usersId": 8
+    },
+    {
+      "id": 4,
+      "startDate": "2021-12-20",
+      "payRate": 10.5,
+      "locationsId": 2,
+      "usersId": 9
+    },
+    {
+      "id": 5,
+      "startDate": "1111-11-11",
+      "payRate": 14,
+      "locationsId": 3,
+      "usersId": 10
+    },
+    {
+      "startDate": "2023-04-03",
+      "payRate": 200,
+      "locationsId": 1,
+      "usersId": 11,
+      "id": 6
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "200 right her",
+      "squareFootage": 250
+    },
+    {
+      "id": 2,
+      "address": "100 over there",
+      "squareFootage": 250
+    },
+    {
+      "id": 3,
+      "address": "200 right ther",
+      "squareFootage": 250
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "description": "chocolate"
+    },
+    {
+      "id": 2,
+      "description": "hard candy"
+    },
+    {
+      "id": 3,
+      "description": "soft candy"
+    },
+    {
+      "id": 4,
+      "description": "fruity"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "flu",
+      "productTypesId": 1,
+      "pricePerUnit": 2.59
+    },
+    {
+      "id": 2,
+      "name": "flee",
+      "productTypesId": 1,
+      "pricePerUnit": 1.59
+    },
+    {
+      "id": 3,
+      "name": "book",
+      "productTypesId": 2,
+      "pricePerUnit": 2.59
+    },
+    {
+      "id": 4,
+      "name": "beak",
+      "productTypesId": 2,
+      "pricePerUnit": 1.59
+    },
+    {
+      "id": 5,
+      "name": "cook",
+      "productTypesId": 3,
+      "pricePerUnit": 3.59
+    },
+    {
+      "id": 6,
+      "name": "kick",
+      "productTypesId": 3,
+      "pricePerUnit": 2.59
+    },
+    {
+      "id": 7,
+      "name": "rook",
+      "productTypesId": 4,
+      "pricePerUnit": 4.59
+    },
+    {
+      "id": 8,
+      "name": "reek",
+      "productTypesId": 4,
+      "pricePerUnit": 3.59
+    },
+    {
+      "name": "glee",
+      "productTypesId": "1",
+      "pricePerUnit": "1.95",
+      "id": 9
+    },
+    {
+      "name": "gleeeee",
+      "productTypesId": "1",
+      "pricePerUnit": "2.00",
+      "id": 10
+    },
+    {
+      "name": "Bing",
+      "productTypesId": "4",
+      "pricePerUnit": ".19",
+      "id": 11
+    }
+  ],
+  "locationProducts": [
+    {}
+  ],
+  "purchases": [
+    {
+      "productId": 11,
+      "loyaltyNumber": 12345,
+      "date": "Thu Apr 06 2023 13:42:01 GMT-0500 (Central Daylight Time)",
+      "id": 1
+    },
+    {
+      "productId": 5,
+      "loyaltyNumber": 12345,
+      "date": "Thu Apr 06 2023 13:42:02 GMT-0500 (Central Daylight Time)",
+      "id": 2
+    },
+    {
+      "productId": 9,
+      "loyaltyNumber": 12345,
+      "date": "Thu Apr 06 2023 13:42:03 GMT-0500 (Central Daylight Time)",
+      "id": 3
+    },
+    {
+      "productId": 2,
+      "loyaltyNumber": 12346,
+      "date": "Thu Apr 06 2023 13:42:30 GMT-0500 (Central Daylight Time)",
+      "id": 4
+    },
+    {
+      "productId": 1,
+      "loyaltyNumber": 12346,
+      "date": "Thu Apr 06 2023 13:42:31 GMT-0500 (Central Daylight Time)",
+      "id": 5
+    },
+    {
+      "productId": 4,
+      "loyaltyNumber": 12346,
+      "date": "Thu Apr 06 2023 13:42:32 GMT-0500 (Central Daylight Time)",
+      "id": 6
+    },
+    {
+      "productId": 6,
+      "loyaltyNumber": 12348,
+      "date": "Thu Apr 06 2023 13:43:04 GMT-0500 (Central Daylight Time)",
+      "id": 7
+    },
+    {
+      "productId": 8,
+      "loyaltyNumber": 12348,
+      "date": "Thu Apr 06 2023 13:43:05 GMT-0500 (Central Daylight Time)",
+      "id": 8
+    },
+    {
+      "productId": 7,
+      "loyaltyNumber": 12348,
+      "date": "Thu Apr 06 2023 13:43:05 GMT-0500 (Central Daylight Time)",
+      "id": 9
+    },
+    {
+      "productId": 10,
+      "loyaltyNumber": 12348,
+      "date": "Thu Apr 06 2023 13:43:06 GMT-0500 (Central Daylight Time)",
+      "id": 10
+    },
+    {
+      "productId": 9,
+      "loyaltyNumber": 12348,
+      "date": "Thu Apr 06 2023 13:43:06 GMT-0500 (Central Daylight Time)",
+      "id": 11
+    },
+    {
+      "productId": 1,
+      "loyaltyNumber": 12348,
+      "date": "Thu Apr 06 2023 13:43:07 GMT-0500 (Central Daylight Time)",
+      "id": 12
+    },
+    {
+      "productId": 2,
+      "loyaltyNumber": 12348,
+      "date": "Thu Apr 06 2023 13:43:07 GMT-0500 (Central Daylight Time)",
+      "id": 13
+    },
+    {
+      "productId": 11,
+      "loyaltyNumber": 12348,
+      "date": "Thu Apr 06 2023 13:43:08 GMT-0500 (Central Daylight Time)",
+      "id": 14
+    },
+    {
+      "productId": 4,
+      "loyaltyNumber": 12348,
+      "date": "Thu Apr 06 2023 13:43:09 GMT-0500 (Central Daylight Time)",
+      "id": 15
+    },
+    {
+      "productId": 3,
+      "loyaltyNumber": 12348,
+      "date": "Thu Apr 06 2023 13:43:09 GMT-0500 (Central Daylight Time)",
+      "id": 16
+    },
+    {
+      "productId": 5,
+      "loyaltyNumber": 12348,
+      "date": "Thu Apr 06 2023 13:43:10 GMT-0500 (Central Daylight Time)",
+      "id": 17
+    }
+  ]
+}
