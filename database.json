@@ -76,27 +76,27 @@
   "customers": [
     {
       "id": 1,
-      "usersId": 1,
+      "userId": 1,
       "loyaltyNumber": "12345"
     },
     {
       "id": 2,
-      "usersId": 2,
+      "userId": 2,
       "loyaltyNumber": 12346
     },
     {
       "id": 3,
-      "usersId": 3,
+      "userId": 3,
       "loyaltyNumber": 12347
     },
     {
       "id": 4,
-      "usersId": 4,
+      "userId": 4,
       "loyaltyNumber": 12348
     },
     {
       "id": 5,
-      "usersId": 5,
+      "userId": 5,
       "loyaltyNumber": 12349
     }
   ],
@@ -105,42 +105,42 @@
       "id": 1,
       "startDate": "2018-07-22",
       "payRate": 12.5,
-      "locationsId": 1,
-      "usersId": 6
+      "locationId": 1,
+      "userId": 6
     },
     {
       "id": 2,
       "startDate": "2019-06-12",
       "payRate": 11.5,
-      "locationsId": 1,
-      "usersId": 7
+      "locationId": 1,
+      "userId": 7
     },
     {
       "id": 3,
       "startDate": "2013-10-21",
       "payRate": 13.5,
-      "locationsId": 2,
-      "usersId": 8
+      "locationId": 2,
+      "userId": 8
     },
     {
       "id": 4,
       "startDate": "2021-12-20",
       "payRate": 10.5,
-      "locationsId": 2,
-      "usersId": 9
+      "locationId": 2,
+      "userId": 9
     },
     {
       "id": 5,
       "startDate": "1111-11-11",
       "payRate": 14,
-      "locationsId": 3,
-      "usersId": 10
+      "locationId": 3,
+      "userId": 10
     },
     {
       "startDate": "2023-04-03",
       "payRate": 200,
-      "locationsId": 1,
-      "usersId": 11,
+      "locationId": 1,
+      "userId": 11,
       "id": 6
     }
   ],
@@ -241,7 +241,7 @@
       "id": 10
     },
     {
-      "name": "Bing",
+      "name": "wing",
       "productTypesId": "4",
       "pricePerUnit": ".19",
       "id": 11
@@ -352,6 +352,12 @@
       "loyaltyNumber": 12348,
       "date": "Thu Apr 06 2023 13:43:10 GMT-0500 (Central Daylight Time)",
       "id": 17
+    },
+    {
+      "productId": 11,
+      "loyaltyNumber": 12346,
+      "date": "Fri Apr 21 2023 09:38:21 GMT-0500 (Central Daylight Time)",
+      "id": 18
     }
   ]
 }
